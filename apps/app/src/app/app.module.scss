@@ -1,0 +1,22 @@
+.app {
+  font-family: sans-serif;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.app :global(.flex) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app :global(main) {
+  padding: 0 36px;
+}
+
+.app :global(h1) {
+  text-align: center;
+  margin-left: 18px;
+  font-size: 24px;
+}

@@ -1,0 +1,19 @@
+@import '../../../variables.scss';
+
+.header-component {
+
+  .primaryColor {
+    color: $primary;
+  }
+  
+  .secondaryColor {
+    color: $secondary;
+  }
+ 
+  header {
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+}

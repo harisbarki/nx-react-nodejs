@@ -1,0 +1,22 @@
+@import '../../../variables.scss';
+
+.prime-median-component {
+
+  .errorMessage {
+    text-align: center;
+    background-color: $colorWarn;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+  }
+  
+  .result {
+    text-align: center;
+    background-color: $colorSuccess;
+    padding: 10px;
+    color: $secondary;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    font-weight: 900;
+  }
+}

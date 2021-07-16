@@ -1,0 +1,48 @@
+{
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*"
+  },
+  "affected": {
+    "defaultBase": "master"
+  },
+  "npmScope": "boilerplate",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "app": {
+      "tags": []
+    },
+    "app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app"]
+    },
+    "api": {
+      "tags": []
+    },
+    "util": {
+      "tags": []
+    },
+    "frontend-ui": {
+      "tags": []
+    },
+    "frontend-api-connectors": {
+      "tags": []
+    }
+  }
+}
